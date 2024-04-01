@@ -22,7 +22,7 @@ exports.handler = async (event, context) => {
 
     const screenshot = await page.screenshot({ encoding: 'binary' });
 
-    #await browser.close();
+    //await browser.close();
   
     return {
         statusCode: 200,
